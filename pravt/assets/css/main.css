@@ -1,0 +1,355 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.narrow-container {
+  position: relative;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+.narrow-container nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.narrow-container nav .logo {
+  margin-bottom: 50px;
+  background-color: #c83642;
+  width: 187px;
+  height: 141.67px;
+}
+.narrow-container nav .logo img {
+  padding-left: 30px;
+  margin-top: 37px;
+  width: 160px;
+  height: 60px;
+  background-color: #c83642;
+}
+.narrow-container nav .nav-links {
+  padding-top: 30px;
+}
+.narrow-container nav .nav-link {
+  font-weight: bold;
+  margin: 30px;
+  text-decoration: none;
+  width: 220px;
+  color: black;
+  font-size: 25px;
+}
+.narrow-container button {
+  cursor: pointer;
+  padding: 18px 30px;
+  border: 4px solid #C82132;
+  border-radius: 5px;
+  background-color: white;
+}
+.narrow-container button:hover {
+  background-color: #C82132;
+  color: white;
+}
+.narrow-container button:hover i {
+  color: white;
+}
+.narrow-container .info {
+  align-items: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 880px;
+  height: 108px;
+  border-radius: 0px 0px 0px 15px;
+  background-color: #EEEEEE;
+  display: flex;
+  display: flex;
+  justify-content: space-evenly;
+}
+.narrow-container .info .contacttext {
+  font-size: 11px;
+}
+.narrow-container .info .item {
+  margin-left: 50px;
+}
+.narrow-container .info .item i {
+  padding-right: 15px;
+}
+.narrow-container .info .lang {
+  position: relative;
+}
+.narrow-container .info .lang img {
+  position: absolute;
+  right: 40px;
+}
+.narrow-container .info .datesag {
+  margin-left: 20p;
+}
+.narrow-container .info .bold {
+  font-weight: 500;
+}
+.narrow-container .info img {
+  margin-right: 20px;
+}
+.narrow-container .info .date {
+  display: flex;
+}
+.narrow-container .info .date i {
+  font-size: 25px;
+  color: #C82132;
+}
+.narrow-container .info .location {
+  display: flex;
+}
+.narrow-container .info .location i {
+  font-size: 25px;
+  color: #C82132;
+}
+.narrow-container .info .contact {
+  display: flex;
+}
+.narrow-container .info .contact img {
+  width: 25px;
+  margin-top: 13px;
+  color: #C82132;
+}
+.narrow-container .lang img {
+  width: 30px;
+  height: 20px;
+}
+
+.news .my_container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+.news .my_container p {
+  margin-top: 15px;
+  font-weight: 100;
+}
+.news .my_container .imgs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  filter: grayscale(100%);
+}
+.news .my_container .allbodyimgs {
+  display: grid;
+  flex-wrap: wrap;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+.news .my_container .allbodyimgs .alts {
+  margin-top: 40px;
+}
+.news .my_container .allbodyimgs .altfooter {
+  margin-top: 60px;
+}
+.news .my_container .allbodyimgs .photo {
+  background-color: #eeeeee;
+  width: 450px;
+  height: 250px;
+  border-radius: 10px;
+}
+.news .my_container .allbodyimgs .altfooter {
+  display: flex;
+  justify-content: space-between;
+}
+.news .my_container .allbodyimgs .altfooter .dates {
+  display: inline-block;
+}
+.news .my_container .allbodyimgs .altfooter a {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+}
+.news .my_container .allbodyimgs .firstimgs {
+  position: relative;
+}
+.news .my_container .allbodyimgs .firstimgs .imgg2 {
+  position: absolute;
+  left: 200px;
+}
+.news .my_container .allbodyimgs .firstimgs .imgg1 {
+  position: absolute;
+  top: 99px;
+}
+.news .my_container .allbodyimgs .firstimgs img {
+  width: 220px;
+  height: 150px;
+  background-color: #eeeeee;
+  mix-blend-mode: multiply;
+}
+.news .my_container .allbodyimgs .secondimgs img {
+  width: 390px;
+  height: 225px;
+  mix-blend-mode: multiply;
+}
+.news .my_container .allbodyimgs .treendimgs {
+  position: relative;
+}
+.news .my_container .allbodyimgs .treendimgs img {
+  mix-blend-mode: multiply;
+}
+.news .my_container .allbodyimgs .treendimgs .img2 {
+  position: absolute;
+  top: 30px;
+  right: 1px;
+}
+.news .my_container .allbodyimgs .fournfimgs img {
+  mix-blend-mode: multiply;
+}
+.news .my_container .allbodyimgs .img4 {
+  width: 100%;
+  height: 100%;
+}
+.news .my_container .allbodyimgs .fivendimgs img {
+  mix-blend-mode: multiply;
+  width: 450px;
+  height: 250px;
+}
+.news .my_container .allbodyimgs .sixndimgs img {
+  mix-blend-mode: multiply;
+  width: 450px;
+  height: 250px;
+}
+.news .my_container .allbodyimgs .sevenndimgs img {
+  mix-blend-mode: multiply;
+  width: 450px;
+  height: 250px;
+}
+.news .my_container .allbodyimgs .img5 {
+  width: 100%;
+  height: 100%;
+}
+.news .my_container .allbodyimgs .img6 {
+  width: 100%;
+  height: 100%;
+}
+
+.ftr {
+  margin: 0 auto;
+  width: 100%;
+  height: 400px;
+  background-color: #f1f1f5;
+}
+.ftr li {
+  list-style: none;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1550px;
+  margin: 0 auto;
+  padding: 0 25px;
+}
+
+.forsol .socialmedia {
+  margin-top: 30px;
+}
+.forsol .socialmedia .tg {
+  padding-left: 10px;
+}
+.forsol a {
+  display: block;
+}
+.forsol .download {
+  margin-top: 100px;
+  display: flex;
+}
+.forsol .download .downloadd {
+  margin-left: 28px;
+}
+.forsol .logo {
+  background-color: #c83642;
+  width: 160px;
+  height: 130px;
+  margin-top: 60px;
+}
+.forsol .logo p {
+  padding-top: 50px;
+}
+.forsol .logo img {
+  width: 160px;
+  height: 60px;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  background-color: #c83642;
+}
+
+.forsag {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.forsag .datesag {
+  margin-left: 20px;
+}
+.forsag .bold {
+  font-weight: 500;
+}
+.forsag img {
+  margin-right: 20px;
+}
+.forsag .date {
+  display: flex;
+}
+.forsag .date i {
+  font-size: 25px;
+  color: #C82132;
+}
+.forsag .location {
+  display: flex;
+}
+.forsag .location i {
+  font-size: 25px;
+  color: #C82132;
+}
+.forsag .contact {
+  display: flex;
+}
+.forsag .contact img {
+  width: 25px;
+  margin-top: 13px;
+  color: #C82132;
+}
+.forsag .contacttext {
+  font-size: 10px;
+}
+
+.fororta {
+  line-height: 200%;
+  margin-top: 65px;
+  display: flex;
+  justify-content: space-between;
+}
+.fororta a {
+  text-decoration: none;
+  color: black;
+}
+.fororta .middle {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.footerend {
+  background-color: #e7e7ec;
+  width: 100%;
+  height: 80px;
+  margin: 0 auto;
+  padding: 0 25px;
+}
+.footerend .pravt {
+  color: #C83642;
+}
+.footerend .security {
+  display: flex;
+}
+.footerend .security .visa {
+  margin-left: 70px;
+  font-size: x-large;
+}/*# sourceMappingURL=main.css.map */
