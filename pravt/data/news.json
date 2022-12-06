@@ -1,69 +1,75 @@
 [
     {
         "id": 1,
-        "url": [
-           {
-                "id":1,
-                "url1": "./assets/img/amortizator-2 1.png"
-           },
-     
-           {
-                "id":2,
-                "url2": "./assets/img/amortizator-1 1.png"
-
-            }
+        "images": [
+            "./assets/img/amortizator-2 1.png",
+            "./assets/img/amortizator-1 1.png"
         ],
         "title": "New shock absorbers",
         "date": "24.06.2022"
     },
     {
         "id": 2,
-        "url": "",
+        "images": [
+            "./assets/img/avkuum 1.png"
+        ],
         "title": "Expected arrival at the warehouse",
         "date": "24.06.2022"
     },
     {
         "id": 3,
-        "url": {
-            "url1": "./assets/img/amortizator-2 1.png",
-            "url2": "./assets/img/vns1 1.png"
-        },
+        "images": [
+            "./assets/img/amortizator-2 1.png",
+            "./assets/img/vns1 1.png"
+        ],
         "title": "Back in stock",
         "date": "24.06.2022"
     },
     {
         "id": 4,
-        "url": "./assets/img/unsplash_4P6J1ns-FZo.png",
+        "images": [
+            "./assets/img/unsplash_4P6J1ns-FZo.png"
+        ],
         "title": "News title",
         "date": "24.06.2022"
     },
     {
         "id": 5,
-        "url": "./assets/img/unsplash_xe-e69j6-Ds.png",
+        "images": [
+            "./assets/img/unsplash_xe-e69j6-Ds.png"
+        ],
         "title": "News title",
         "date": "24.06.2022"
     },
     {
         "id": 6,
-        "url": "./assets/img/unsplash_WZJyBgHHbJM.png",
+        "images": [
+            "./assets/img/unsplash_WZJyBgHHbJM.png"
+        ],
         "title": "News title",
         "date": "24.06.2022"
     },
     {
         "id": 7,
-        "url": "./assets/img/unsplash_0dtQVPebr0Q.png",
+        "images": [
+            "./assets/img/unsplash_0dtQVPebr0Q.png"
+        ],
         "title": "News title",
         "date": "24.06.2022"
     },
     {
         "id": 8,
-        "url": "./assets/img/unsplash_qMIEMm3sd2c.png",
+        "images": [
+            "./assets/img/unsplash_qMIEMm3sd2c.png"
+        ],
         "title": "News title",
         "date": "24.06.2022"
     },
     {
         "id": 9,
-        "url": "./assets/img/unsplash_yBzrPGLjMQw.png",
+        "images": [
+            "./assets/img/unsplash_yBzrPGLjMQw.png"
+        ],
         "title": "News title",
         "date": "24.06.2022"
     }

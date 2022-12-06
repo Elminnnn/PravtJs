@@ -151,6 +151,26 @@
   width: 450px;
   height: 250px;
   border-radius: 10px;
+  position: relative;
+}
+.news .my_container .allbodyimgs .photo .imgg2 {
+  position: absolute;
+  left: 200px;
+}
+.news .my_container .allbodyimgs .photo .imgg1 {
+  position: absolute;
+  top: 99px;
+}
+.news .my_container .allbodyimgs .photo .cardImg {
+  mix-blend-mode: multiply;
+  width: 450px;
+  height: 250px;
+}
+.news .my_container .allbodyimgs .photo img {
+  width: 220px;
+  height: 150px;
+  background-color: #eeeeee;
+  mix-blend-mode: multiply;
 }
 .news .my_container .allbodyimgs .altfooter {
   display: flex;
@@ -163,69 +183,6 @@
   text-decoration: none;
   font-size: 20px;
   color: black;
-}
-.news .my_container .allbodyimgs .firstimgs {
-  position: relative;
-}
-.news .my_container .allbodyimgs .firstimgs .imgg2 {
-  position: absolute;
-  left: 200px;
-}
-.news .my_container .allbodyimgs .firstimgs .imgg1 {
-  position: absolute;
-  top: 99px;
-}
-.news .my_container .allbodyimgs .firstimgs img {
-  width: 220px;
-  height: 150px;
-  background-color: #eeeeee;
-  mix-blend-mode: multiply;
-}
-.news .my_container .allbodyimgs .secondimgs img {
-  width: 390px;
-  height: 225px;
-  mix-blend-mode: multiply;
-}
-.news .my_container .allbodyimgs .treendimgs {
-  position: relative;
-}
-.news .my_container .allbodyimgs .treendimgs img {
-  mix-blend-mode: multiply;
-}
-.news .my_container .allbodyimgs .treendimgs .img2 {
-  position: absolute;
-  top: 30px;
-  right: 1px;
-}
-.news .my_container .allbodyimgs .fournfimgs img {
-  mix-blend-mode: multiply;
-}
-.news .my_container .allbodyimgs .img4 {
-  width: 100%;
-  height: 100%;
-}
-.news .my_container .allbodyimgs .fivendimgs img {
-  mix-blend-mode: multiply;
-  width: 450px;
-  height: 250px;
-}
-.news .my_container .allbodyimgs .sixndimgs img {
-  mix-blend-mode: multiply;
-  width: 450px;
-  height: 250px;
-}
-.news .my_container .allbodyimgs .sevenndimgs img {
-  mix-blend-mode: multiply;
-  width: 450px;
-  height: 250px;
-}
-.news .my_container .allbodyimgs .img5 {
-  width: 100%;
-  height: 100%;
-}
-.news .my_container .allbodyimgs .img6 {
-  width: 100%;
-  height: 100%;
 }
 
 .ftr {
@@ -352,4 +309,4 @@
 .footerend .security .visa {
   margin-left: 70px;
   font-size: x-large;
-}/*# sourceMappingURL=main.css.map */
+}
